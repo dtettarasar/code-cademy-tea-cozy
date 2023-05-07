@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: black;
@@ -5,11 +10,61 @@ body {
     opacity: 0.9;
 }
 
-nav ul li a:link {
-    color: seashell;
-    text-decoration: underline;
-} 
+nav {
+    border-bottom: 1px solid seashell;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.links-container {
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+}
 
 nav ul {
     list-style-type: none;
 }
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a:link {
+    color: seashell;
+    text-decoration: underline;
+}
+
+.logo-container {
+    padding: 10px;
+    height: 50px;
+}
+
+.logo {
+    height:50px;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .links-container a {
+        font-size: 1.4rem;
+    }
+}
+
