@@ -2,4 +2,14 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: black;
     color: seashell;
+    opacity: 0.9;
+}
+
+nav ul li a:link {
+    color: seashell;
+    text-decoration: underline;
+} 
+
+nav ul {
+    list-style-type: none;
 }
