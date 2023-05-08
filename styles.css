@@ -65,6 +65,8 @@ header {
     padding: 15px;
 }
 
+/* Tea month section */
+
 .tea-month {
     padding-top: 30px;
     max-width: 1000px;
@@ -96,6 +98,36 @@ header {
     font-weight: 700;
     margin-top: 10px;
 }
+
+/*------------------------------*/
+
+/* Location section */
+
+.location {
+    margin: 20px auto;
+    max-width: 1200px;
+    min-height: 500px;
+    background-color: grey;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.location-item-row {
+    display: flex;
+    justify-content: center;
+}
+
+/*------------------------------*/
+
+/* Contact section */
+
+.contact {
+    margin: 20px auto;
+}
+
+/*------------------------------*/
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
