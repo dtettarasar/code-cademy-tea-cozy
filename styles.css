@@ -48,11 +48,32 @@ nav ul li a:link {
 
 header {
     display: flex;
+    justify-content: center;
+    align-items: center;
     height: 700px;
-    background-color: blue;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
     max-width: 1200px;
     margin: 0 auto;
+    background-size: cover;
 }
+
+.header-content {
+    height: fit-content;
+    flex: 1 1 auto;
+    text-align: center;
+    background-color: #000;
+    padding: 15px;
+}
+
+/*
+.header-content h2 {
+    margin-top: 15px;
+}
+
+.header-content h4 {
+
+}
+*/
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
@@ -73,6 +94,14 @@ header {
 @media (min-width: 1200px) {
     .links-container a {
         font-size: 1.4rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    h4 {
+        font-size: 1.2rem;
     }
 }
 
