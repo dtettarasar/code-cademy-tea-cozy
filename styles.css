@@ -65,15 +65,15 @@ header {
     padding: 15px;
 }
 
-/*
-.header-content h2 {
-    margin-top: 15px;
+.tea-month {
+    padding-top: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
-.header-content h4 {
-
+.section-title {
+    text-align: center;
 }
-*/
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
