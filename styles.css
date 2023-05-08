@@ -75,6 +75,28 @@ header {
     text-align: center;
 }
 
+.tea-range-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.tea-item {
+    flex: 0 1 300px;
+    margin: 15px;
+}
+
+.tea-item img {
+    width: 100%;
+}
+
+.tea-item p {
+    text-align: center;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
 
@@ -101,6 +123,10 @@ header {
     }
 
     h4 {
+        font-size: 1.2rem;
+    }
+
+    .tea-item p {
         font-size: 1.2rem;
     }
 }
