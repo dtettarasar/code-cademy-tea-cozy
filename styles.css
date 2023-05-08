@@ -139,6 +139,15 @@ header {
     margin: 20px auto;
 }
 
+.contact-info {
+    text-align: center;
+}
+
+.contact-info h5 {
+    margin: 20px;
+    font-size: 1.3rem;
+}
+
 /*------------------------------*/
 
 /* Small devices (landscape phones, 576px and up) */
