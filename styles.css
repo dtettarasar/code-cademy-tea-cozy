@@ -130,6 +130,12 @@ header {
     background-color: #000;
     margin: 20px;
     flex: 0 1 300px;
+    text-align: center;
+}
+
+.location-item-col p {
+    margin: 20px;
+    font-size: 1.5rem;
 }
 
 /*------------------------------*/
@@ -150,6 +156,14 @@ header {
 }
 
 /*------------------------------*/
+
+/* footer */
+
+footer p {
+    margin: 20px;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
